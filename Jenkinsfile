@@ -4,7 +4,7 @@ stages{
 stage(Build){
 steps{
 echo 'Building.....'
-ssh mvn clean install
+sh 'mvn clean install'
 }
 }
 }
